@@ -1,0 +1,120 @@
+/* star-wars.css
+
+body {
+    background-color: black;
+    color: yellow;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+*/
+
+@font-face {
+    font-family: distfont;
+    src: url(SfDistantGalaxy-0l3d.ttf);
+}
+
+body{
+    background-color: #dbdbdb;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* border-width: 60px;
+    border: black;
+    border-style: solid; */
+}
+
+h1{
+    font-family: distfont;
+    font-weight: lighter;
+    /* background-color: black; */
+    
+    
+}
+h2{
+    color: 64696C;
+}
+
+.header {
+    position: top;
+    text-align: center;
+    font-size: 20px;
+    color: purple;
+}
+
+.topper{
+    text-align: right;
+    color: yellow;
+    justify-content: center;
+    
+}
+
+.tophead{
+    text-align: center;
+    font-size: 70px;
+    background-image: url(../assets/img/starz.jpg);
+    color: yellow;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pad {
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+    font-size: larger;
+}
+
+:any-link{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: blueviolet;
+    font-size: 105%;
+    
+}
+
+nav{
+    background-color: orange;
+}
+
+.chunk{
+    size-adjust: 50%;
+}
